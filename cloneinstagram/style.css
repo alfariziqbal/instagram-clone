@@ -1,0 +1,174 @@
+.container-content {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    background-color: white;
+    width: 350px;
+    height: 395px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.main-user {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    outline: 0; 
+    text-overflow: ellipsis;
+    justify-content: center;
+}
+
+.main-password {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 5px;
+    outline: 0; 
+    text-overflow: ellipsis;
+    justify-content: center;
+}
+
+.container-main-content input[type="text"] {
+        background: #fafafa;
+        width: 90%;
+        padding: 9px 0px 7px 8px;
+        line-height: 18px;
+        border: 1px solid #efefef;
+        border-radius: 3px;
+        color: #999;
+}
+
+.container-main-content input[type="password"] {
+        background: #fafafa;
+        width: 90%;
+        padding: 9px 0px 7px 8px;
+        line-height: 18px;
+        border: 1px solid #efefef;
+        border-radius: 3px;
+        color: #999;
+}
+
+.main-button {
+    display: flex;
+    margin-top: 14px;
+    justify-content: center;
+}
+
+.container-main-content button[type="submit"] {
+        background: #3897f0;
+        border: 1px solid #3897f0;
+        border-radius: 4px;
+        color: #fff;
+        padding: 5px 9px;
+        font-weight: 600;
+        font-size: 14px;
+        width: 76%;
+        outline: 0;
+        cursor: pointer;
+}
+
+.main-gap {
+    display: flex;
+    color: rgba(var(--f52,142,142,142),1);
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+
+.fbButton {
+    background: url(https://www.instagram.com/static/bundles/base/sprite_core.png/fa9f36710aa4.png);
+    background-repeat: no-repeat;
+    background-position: -308px -407px;
+    height: 16px;
+    width: 22px;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.main-alt {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.main-alt button[type="button"] {
+    display: flex;
+    background: white;
+    border: 0px;
+    width: 75%;
+    color: #385185;
+    font-weight: 600;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.forgot-but {
+    display: flex;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font: inherit;
+    justify-content: center;
+    align-items: flex-end;
+    vertical-align: baseline;
+}
+
+.container-alt {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container-alt a {
+    text-decoration: none;
+}
+
+.container-end {
+    width: 372px;
+    padding: 0px;
+    margin: 10px;
+}
+.alt-get {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-logo img {
+    width: 136px;
+    height: 40px;
+    margin: 5px;
+}
